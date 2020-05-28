@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Chelsea+Market&display=swap');
+#menu {
+    font-family: 'Anton','Chelsea Market',cursive, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+#menu li {
+float: left;
+border: 1px solid #000;
+margin-right: 0px;
+background: darkblue;
+}
+#menu li a {
+padding: 10px 20px;
+display: block;
+text-decoration: none;
+color: darkmagenta;
+align-self: center;
+}
+#menu li a:hover {
+    background: #000000;
+    color: cornsilk;
+}
